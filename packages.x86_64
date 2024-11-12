@@ -53,7 +53,6 @@ less
 lftp
 libfido2
 libusb-compat
-linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -130,10 +129,28 @@ xfsprogs
 xl2tpd
 zsh
 
+########
+#kernel##
+########
+##The Linux kernel and modules
+linux
+
+##The Linux ZEN kernel and modules fast & stable
+#linux-zen
+#linux-zen-headers
+
+##The LTS Linux kernel and modules
+#linux-lts
+#linux-lts-headers
+
+###The Security-Hardened Linux kernel and modules
+#linux-hardened
+#linux-hardened-headers
+
 ############
 #calamares##
 ############
-calamares
+hel-calamares
 hel-calamares-config
 os-prober
 
@@ -153,7 +170,13 @@ mkinitcpio-openswap
 ######################
 gnome
 gnome-extra
+#cinnamon
+#nemo-fileroller
+#xfce4-terminal
+#galculator
 hel-wallpapers
+#xfce4
+#xfce4-goodies
 
 #########
 #office##
@@ -169,6 +192,7 @@ meld
 python-pyqt5
 qtcreator
 qt5-tools
+dbeaver
 
 ######################
 #Network & Bluetooth##
@@ -188,6 +212,7 @@ nodejs
 go
 lua
 sqlite
+mariadb
 
 #############
 #Multimedia##
@@ -210,3 +235,4 @@ archiso
 timeshift
 gparted
 firewalld
+neofetch

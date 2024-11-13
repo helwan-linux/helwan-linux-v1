@@ -161,7 +161,6 @@ ckbcomp
 xorg
 xorg-apps
 gdm
-grub
 bash-completion
 xterm
 mkinitcpio-openswap

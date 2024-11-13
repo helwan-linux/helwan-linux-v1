@@ -150,9 +150,10 @@ linux
 ############
 #calamares##
 ############
-hel-calamares
+calamares
 hel-calamares-config
 os-prober
+ckbcomp
 
 ###############
 #GUI-packages##
